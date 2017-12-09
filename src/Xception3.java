@@ -6,7 +6,7 @@ public class Xception3 {
 	public static void main(String[] args) {
 		File f = new File("DemoFile.txt");
 		Scanner sc ;
-		String input ="abc";
+		String input ="abcd";
 		try {
 			 sc  = new Scanner(f);
 			 input = sc.nextLine();
