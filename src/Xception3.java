@@ -2,7 +2,7 @@
 //import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Xception3  {
+ class Xception3  {
 	public static void main(String[] args)
 	{
 		
@@ -11,11 +11,11 @@ public class Xception3  {
 		if (number>10)
 		{
 			//Exception e = new Exception();
-			throw new MyException();
+			throw new MyException1();
 		}
 		
 	}
-	catch (MyException e)
+	catch (MyException1 e)
 	{
 		System.out.println("Number can't be greater than 12");
 	}
@@ -30,9 +30,9 @@ public class Xception3  {
 	}
 
 }
-class MyException extends Exception
+class MyException1 extends Exception
 {
-	public MyException ()
+	public MyException1 ()
 	{
 		System.out.println("Number can't be greater then 10");
 	}
